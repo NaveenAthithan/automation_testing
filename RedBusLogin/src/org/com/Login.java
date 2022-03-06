@@ -27,10 +27,10 @@ public class Login {
 		driver.switchTo().frame(1);
 		 WebElement findElement3 = driver.findElement(By.id("mobileNoInp"));
 		 findElement3.sendKeys("8344350473");
-		 driver.switchTo().defaultContent();
-		 driver.switchTo().frame(0);
-		WebElement findElement4 = driver.findElement(By.xpath("(//div[@class='recaptcha-checkbox-border'])[1]"));
-		 findElement4.click();
+		 //driver.switchTo().defaultContent();
+		 //driver.switchTo().frame(0);
+		//WebElement findElement4 = driver.findElement(By.xpath("(//div[@class='recaptcha-checkbox-border'])[1]"));
+		 //findElement4.click();
 		
 	}
 
