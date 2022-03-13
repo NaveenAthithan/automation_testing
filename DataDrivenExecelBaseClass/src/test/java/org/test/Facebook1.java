@@ -18,7 +18,7 @@ public class Facebook1 {
 		WebElement btnLogin = b.locateByName("login");
 		WebElement txtFacebook = b.locateByXpath("//h2[contains(text(),'Face')]");
 		String text = b.getText(txtFacebook);
-		b.excelWrite("E:\\\\projects\\\\DataDrivenExecelBaseClass\\\\ExcelFolder\\\\Book1.xlsx","Sheet1", 2,3,text);
+		b.excelWrite("E:\\\\projects\\\\DataDrivenExecelBaseClass\\\\ExcelFolder\\\\Book1.xlsx","Sheet1", 1,1,text);
 		btnLogin.click();
 		
 	}
