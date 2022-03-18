@@ -1,8 +1,6 @@
 package org.test;
-
 import java.io.File;
 import java.io.IOException;
-
 import org.apache.commons.io.FileUtils;
 //import org.openqa.selenium.
 import org.openqa.selenium.OutputType;
@@ -17,7 +15,7 @@ public class SimpleAlert {
 		driver.get("https://www.facebook.com/");
 		TakesScreenshot screenshot =(TakesScreenshot) driver;
 		File screenshotAs = screenshot.getScreenshotAs(OutputType.FILE);
-		File f =new File("D:\\PRACTICE\\selenium git\\facebook.jpg");
+		File f =new File("D:\\PRACTICE\\selenium git\\facebook1.jpg");
 		FileUtils.copyFile(screenshotAs, f);
 		
 	}

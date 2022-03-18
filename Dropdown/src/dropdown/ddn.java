@@ -1,11 +1,9 @@
 package dropdown;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-
 public class ddn {
 public static void main(String[] args) throws InterruptedException {
 	System.setProperty("webdriver.chrome.driver", "E:\\projects\\RedBusLogin\\driver\\chromedriver.exe");
@@ -20,7 +18,6 @@ public static void main(String[] args) throws InterruptedException {
 	Thread.sleep(5000);
 	s.selectByValue("7");
 	Thread.sleep(5000);
-	s.selectByVisibleText("24");
-	
+	s.selectByVisibleText("24");	
 }
 }
