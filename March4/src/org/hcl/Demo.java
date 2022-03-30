@@ -7,14 +7,20 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Demo {
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\navee\\OneDrive\\Desktop\\March4\\driver\\chromedriver.exe");
-		WebDriver driver =new ChromeDriver();
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\navee\\OneDrive\\Desktop\\March4\\driver\\chromedriver.exe");
+		//WebDriver driver =new ChromeDriver();
 		//System.setProperty("webdriver.gecko.driver", "C:\\Users\\navee\\OneDrive\\Desktop\\March4\\driver\\geckodriver.exe");
 		//WebDriver driver =new FirefoxDriver();
+		System.setProperty("webdriver.edge.driver", "E:\\projects\\automation_testing\\March4\\driver\\msedgedriver.exe");
+
+		// Start Edge Session
+		WebDriver driver = new EdgeDriver();
+		
 		driver.get(" https://www.redbus.in/");
 		List<WebElement> count = driver.findElements(By.tagName("iframe"));
 		System.out.println(count.size());
