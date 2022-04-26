@@ -12,9 +12,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NoSuchMethodError: com.google.common.collect.ImmutableMap.of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableMap;\r\n\tat org.openqa.selenium.chrome.AddHasCasting.getAdditionalCommands(AddHasCasting.java:38)\r\n\tat org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.getExtraCommands(ChromeDriver.java:123)\r\n\tat org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.\u003cinit\u003e(ChromeDriver.java:118)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:106)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:93)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:48)\r\n\tat org.step.StepDefinition.user_is_on_Facebook_login_page(StepDefinition.java:16)\r\n\tat ✽.User is on Facebook login page(src/test/resources/Facebook.feature:3)\r\n",
-              "duration": 718802800,
-              "status": "failed"
+              "duration": 14079391200,
+              "status": "passed"
             },
             "line": 3,
             "name": "User is on Facebook login page",
@@ -25,8 +24,8 @@
           },
           {
             "result": {
-              "duration": 7300,
-              "status": "skipped"
+              "duration": 141189000,
+              "status": "passed"
             },
             "line": 4,
             "name": "User enters valid username and invalid password",
@@ -37,8 +36,8 @@
           },
           {
             "result": {
-              "duration": 3300,
-              "status": "skipped"
+              "duration": 26100,
+              "status": "passed"
             },
             "line": 5,
             "name": "user clicks on login button",
@@ -49,8 +48,8 @@
           },
           {
             "result": {
-              "duration": 3000,
-              "status": "skipped"
+              "duration": 14800,
+              "status": "passed"
             },
             "line": 6,
             "name": "Error page is dispalyed",

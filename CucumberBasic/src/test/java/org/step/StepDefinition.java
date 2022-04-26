@@ -1,12 +1,10 @@
 package org.step;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -36,14 +34,9 @@ public class StepDefinition {
 
 	@When("user clicks on login button")
 	public void user_clicks_on_login_button() {
-	   
 	}
 
 	@Then("Error page is dispalyed")
-	public void error_page_is_dispalyed() {
-	   
+	public void error_page_is_dispalyed() {  
 	}
-
-
-
 }
