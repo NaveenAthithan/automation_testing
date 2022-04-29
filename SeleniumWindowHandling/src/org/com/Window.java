@@ -12,7 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 public class Window {
 	public static void main(String[] args) throws IOException, InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "E:\\projects\\RedBusLogin\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\projects\\automation_testing\\SeleniumWindowHandling\\driver\\chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
 	driver.get("https://www.amazon.in/");
 	String pri= driver.getWindowHandle();
