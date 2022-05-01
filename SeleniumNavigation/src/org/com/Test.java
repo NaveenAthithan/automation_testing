@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Test {
 	public static void main(String[] args) throws IOException {
-		System.setProperty("webdriver.chrome.driver", "E:\\projects\\RedBusLogin\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\projects\\automation_testing\\SeleniumNavigation\\driver\\chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
 		driver.get("http://en-gb.facebook.com");
 		WebElement lnkForget = driver.findElement(By.xpath("//a[text()='Forgotten password?']"));
