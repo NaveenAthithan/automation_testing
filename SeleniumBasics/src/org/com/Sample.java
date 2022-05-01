@@ -21,7 +21,7 @@ public class Sample {
 		src.sendKeys("iphone",Keys.ENTER);
 		
 		System.out.println(driver.getWindowHandle());
-		WebElement lnk1= driver.findElement(By.xpath("(//span[text()='Apple iPhone XR (64GB) - (Product) RED'])[1]"));
+		WebElement lnk1= driver.findElement(By.xpath("(//span[text()='Apple iPhone 12 (128GB) - White'])[1]"));
 		 lnk1.click();
 		 Set<String> allwin = driver.getWindowHandles();
 		 for (String string : allwin) {
